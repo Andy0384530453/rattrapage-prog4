@@ -5,8 +5,8 @@ API de soumission de fichiers avec vignette 256x256 (`doc/api.yml`).
 ## Développement local
 
 ```bash
-./run-local.sh                     # Postgres Docker + app sur http://localhost:8080
-SERVER_PORT=8081 ./run-local.sh    # si 8080 est déjà pris par un autre stack Docker
+./run-local.sh                     
+SERVER_PORT=8081 ./run-local.sh    
 ```
 
 Le script démarre le Postgres de `docker-compose.yml` puis exporte les variables de
